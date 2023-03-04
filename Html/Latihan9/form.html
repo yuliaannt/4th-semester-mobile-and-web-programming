@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form html</title>
+</head>
+<body>
+	<form>
+		<!-- elemen form :
+		input
+		textarea
+		select
+		button
+		label -->
+
+		<!-- type input :
+		text
+		password
+		radio
+		checkbox
+		submit
+		reset
+		button -->
+
+		<h3>Text Field</h3>		
+		<label for="username">Username : </label><input type="text" id="username">
+		<br>
+		<label for="password">Password : </label><input type="password" id="password">
+		<hr>
+		<h3>Checkbox</h3>
+		<!-- Tidak bisa mencet text -->
+		<label >Hobi : </label>
+		<input type="checkbox" >Menari
+		<input type="checkbox" >Menyanyi
+		<br>
+		<!-- Bisa mencet text -->
+		<input type="checkbox" id="Menyanyi"><label for="Menyanyi">Menyanyi</label>
+		<input type="checkbox" id="Menggambar"><label for="Menggambar">Menggambar</label>
+		<hr>
+		<h3>Radio Button</h3>
+		<!-- Tidak bisa mencet text -->
+		<label for = "jenis">Jenis kelamin : </label>
+		<input type="radio" name="jenis">Perempuan
+		<input type="radio" name="jenis">Laki-laki
+		<br>
+		<!-- Bisa mencet text -->
+		<input type="radio" id="pria" name="jeniskelamin"><label for="pria">Pria</label>
+		<input type="radio" id="Wanita" name="jeniskelamin"><label for="Wanita">Wanita</label>
+		<hr>
+		<h3>Text Area</h3>
+		<label > Description : </label>
+		<textarea ></textarea>
+		<hr>
+		<h3>Button Submit</h3>
+		<input type="Submit" value="kirim">
+		<hr>
+		<h3>Select</h3>
+		<label>Kota kelahiran :</label>
+		<select>
+			<option>Jakarta</option>
+			<option>Gresik</option>
+		</select>
+		<hr>
+		<h3>Merapikan</h3>
+		<label for="Nama">Text : </label><input type="text" id="Nama">
+		<br>
+		<label for="katasandi">Password : </label><input type="text" id="katasandi">
+		<br>
+		<label>Hobi : </label>
+		<input type="checkbox" id= "Menari"> <label for="menari">Menari</label>
+		<input type="checkbox" id="melukis"> <label for="melukis">Melukis</label>
+		<br>
+		<label>Jenis kelamin :</label>
+		<input type="radio" id="Pr"><label for="Pr">Perempuan</label>
+		<input type="radio" id="Lk"><label for="Lk">Laki-laki</label>
+		<br>
+		<label>Description :</label>
+		<textarea></textarea>
+		<br>
+		<label>Kota Kelahiran :</label>
+		<select>
+			<option>Bali</option>
+			<option>Lombok</option>
+			<option>Gresik</option>
+		</select>
+		<br>
+		<input type="Submit" value="kirim">	
+
+	</form>
+</body>
+</html>
