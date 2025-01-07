@@ -1,0 +1,19 @@
+.container{
+  width: 100px;
+  height: 100px;
+  justify-content: right;
+  align-items: center;
+  display: flex;
+}
+.bagiankiri{
+  width: 600px;
+  height: 600px;
+  background-color: rgb(2, 2, 2);
+  color: blueviolet;
+  padding: 20px;
+}
+.bagiankanan{
+  width: 400px;
+  height: 600px;
+  background-color: chartreuse;
+}

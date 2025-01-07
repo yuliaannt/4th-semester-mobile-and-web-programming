@@ -1,0 +1,20 @@
+.container{
+  background-color: bisque;
+  width: 500px;
+  color: rgb(2, 2, 2);
+}
+
+.container h1{
+  color: brown;
+}
+
+.SectionGambar{
+  width: 600px;
+  background-color: brown;
+}
+
+#Gambar1{
+  width: 1000px ;
+  height: 500px;
+  object-fit: cover;
+}
